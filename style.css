@@ -21,6 +21,10 @@
     box-sizing: border-box;
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     font-family: 'Roboto';
     display: flex;
@@ -33,7 +37,7 @@
   
   .header {
     border: 1px solid red;
-   
+    background: linear-gradient(93deg, rgb(222 251 233) 20%, rgb(0 82 82 / 60%) 78%); 
   }
   
   .main {
@@ -47,4 +51,29 @@
   .container {
     max-width: 1440px;
     margin: 0 auto;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: rgb(36, 39, 4);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .nav-link:hover {
+    text-decoration:underline;
+  }
+  .nav-link:active {
+    text-decoration:underline;
+    color: rgba(219, 219, 56, 0.905);
+    transition: 0.3s;
   }

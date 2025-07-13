@@ -102,3 +102,53 @@
     display: flex;
     flex-wrap: wrap;
   }
+  
+  .section {
+    width: 50%;
+  }
+  .section-one{
+    width: 50%;
+    background-color:rgba(65, 126, 4, 0.47);
+  }
+  
+  section li {
+    list-style: circle;
+    font-size: 23px;
+  }
+
+  
+  .section-title {
+    margin: 0;
+    padding: 30px;
+    text-shadow: 2px 2px 5px rgb(22, 19, 19);
+    color: rgba(219, 219, 56, 0.905);
+  }
+  h1.section-title {
+    font-family: "Roboto";
+    font-size: 34px;
+    font-weight: 500;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 100px ;
+    color: rgba(218, 218, 13, 0.905);
+    text-shadow: 2px 2px 5px rgb(22, 19, 19);
+}
+h2 {
+    text-align: start;
+    font-size: 33px;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    margin: 0px auto;
+  }
+   
+  .picture-img {
+    width: 200px;
+    margin-right: 0px;
+
+  }

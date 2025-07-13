@@ -3,7 +3,7 @@
        -locacion: Vitebs,Belarus    
        -Github: InaDunchanka  
        -Discord: ina_dunchanka
-3. I strive to learn new technologies and improve my skills.There was a desire to get an education in a new profession, I chose rs school courses. I like learning new material and developing. I worked in various specialties. I easily master new classes and find a common language.
+3. Inspired by the world of web interfaces, I'm transitioning into frontend development with a mindset shaped by real-life experience: reliability, communication skills, and a drive to learn.
 4. Skills:  
  -Studied Wordpress    
 -SMM  

@@ -169,3 +169,9 @@ h2 {
   .footer-link {
     width:100px;
   }
+  
+   @media (max-width: 768px) {
+    .section, .section-one {
+      width: 100%;
+    }
+  }

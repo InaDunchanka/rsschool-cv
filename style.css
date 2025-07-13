@@ -14,3 +14,26 @@
     src: url("./assets/fonts/Roboto-Medium.ttf");
     font-weight: 500;
   }
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    border: 1px solid rgba(255, 255, 0, 0.87);
+    background: linear-gradient(93deg, rgb(222 251 233) 20%, rgb(0 82 82 / 60%) 78%); 
+  }
+  
